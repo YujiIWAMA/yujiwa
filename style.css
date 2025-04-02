@@ -108,8 +108,7 @@ button:hover {
   margin: 0;
   padding: 0;
   gap: 1.2rem;
-  flex-wrap: wrap;
-}
+  }
 
 .nav li a {
   text-decoration: none;
@@ -127,4 +126,10 @@ button:hover {
   font-size: 1.8rem;
   font-weight: bold;
   text-align: left;
+}
+/* ナビゲーションを中央に */
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
