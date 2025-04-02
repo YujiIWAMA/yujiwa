@@ -81,19 +81,16 @@ button:hover {
 .lang-wrapper {
   display: flex;
   justify-content: flex-end;
-  margin: 0.5rem 1rem 0 0;
+  margin: 0.5rem 1.5rem 0 0;
 }
 
 .lang-switch {
-  background: transparent;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  padding: 0.3rem 0.7rem;
   font-size: 0.9rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s;
 }
 
 .lang-switch:hover {
-  background-color: #eaeaea;
+  color: #111;
 }
